@@ -1,4 +1,4 @@
-/*
+
 * {
     margin: 0px;
     padding: 0px;
@@ -26,7 +26,7 @@ h1 {
     padding: 50px;
     margin-top: 10px;
 }
-
+/* 
 .titleIn{ 
     text-align: center;
     padding-top: 20px;
@@ -60,7 +60,7 @@ nav ul li {
     padding-bottom: 100px; 
     top: 50px;
 } 
-
+ */
 .fondonav { 
     background: url(../assets/imagenes/fondonavv.jpg) center center no-repeat;
     background-size: cover;
@@ -71,7 +71,7 @@ nav ul li {
     width: 100%;
 }
 
-
+/*  
 .imgA {
     display: flex;
     flex-direction: row;
