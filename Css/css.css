@@ -6,14 +6,89 @@
     color: #fff;
 }
 
+
+body {
+    background-color: rgb(48, 46, 46);
+}
+
+.navbar-nav{
+    text-align: center;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: rgb(255 255 255 / 71%);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(255 255 255 / 71%);
+}
+
+.navbar {
+    padding-bottom: 0px;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+}
+
+.card {
+    background-color: #4c4c4c;
+    margin: 20px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #5b5d5f;
+    border-color: #aaadb1;
+}
+
+ 
+.cardsIn {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    text-align: justify;
+}
+
+.footer {
+   display: flex;
+   flex-direction: row;
+   padding-top: 5px;
+   padding-left: 10px;
+   gap: 5px;
+}
+
+.fondonav { 
+    background: url(../assets/imagenes/fondonavv.jpg) center center no-repeat;
+    background-size: cover;
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 800;
+    height:220px;
+    width: 100%;
+}
+
+.section{
+    padding: 20px;
+    margin: 10px;
+    text-align: justify;
+}
+
+/*
 a {
     text-decoration: none;
 }
+*/
 
-body {
-       background-color: rgb(48, 46, 46);
-}
-
+/* 
 p {
     padding: 10px;
     margin: 10px;
@@ -61,15 +136,6 @@ nav ul li {
     top: 50px;
 } 
  */
-.fondonav { 
-    background: url(../assets/imagenes/fondonavv.jpg) center center no-repeat;
-    background-size: cover;
-    margin: 0;
-    font-size: 2.5rem;
-    font-weight: 800;
-    height:220px;
-    width: 100%;
-}
 
 /*  
 .imgA {

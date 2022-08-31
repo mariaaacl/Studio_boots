@@ -14,12 +14,12 @@
     <link rel="stylesheet" href="Css/css.css">
 </head>
 <body>
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12 col-lg-12">
-                <header class="menu">
+                <header>
                 <!-- menu -->
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <nav class="navbar navbar-expand-lg navbar-light">
                         <div class="container-fluid">
                         <a class="navbar-brand" href="#"><img src="assets/imagenes/logo.png" alt=""></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -27,11 +27,11 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
-                            <a class="nav-link" href="#">Servicios</a>
-                            <a class="nav-link" href="#">Galeria</a>
-                            <a class="nav-link" href="#">About me</a>
-                            <a class="nav-link" href="#">Contacto</a>
+                            <a class="nav-link active" aria-current="page" href="#">HOME</a>
+                            <a class="nav-link" href="view/servicios.html">SERVICIOS</a>
+                            <a class="nav-link" href="view/galeria.html">GALERIA</a>
+                            <a class="nav-link" href="view/acerca.html">ABOUT ME</a>
+                            <a class="nav-link" href="view/contacto.html">CONTACTO</a>
                             </div>
                         </div>
                         </div>
@@ -49,54 +49,107 @@
 
         <!-- primera seccion card -->
         <div class="row">
-
+            <div class="col-12 col-lg-6 cardsIn">
+                <div class="card" style="width: 300px;">
+                    <img src="assets/imagenes/home.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Tatto</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="view/servicios.html" class="btn btn-primary">Mas info</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-lg-6 cardsIn">
+                <div class="card" style="width: 300px;">
+                    <img src="assets/imagenes/home2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Barberia</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="view/servicios.html" class="btn btn-primary">Mas info</a>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!-- Segunda seccion fotos de los trabajos Carrousel-->
         <div class="row">
-
+            <div class="col-12 col-lg-12">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel" style="height: 350px; overflow: hidden;">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="assets/imagenes/car1.png" class="d-block w-80 img-fluid" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/imagenes/car2.png" class="d-block w-80 img-fluid" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/imagenes/car3.png" class="d-block w-80 img-fluid" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
         </div>
 
         <br>
 
         <!-- Tercera seccion Testimonio -->
         <div class="row">
-            <section class="sectionT">
-                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem minima eum placeat nostrum accusantium beatae dignissimos magnam a voluptas cupiditate sequi iure rerum molestias quidem atque, delectus quas perferendis cumque?Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum dolor esse dicta consequatur! Nobis, eos. Quibusdam quam, ex libero iusto accusantium in ea ratione cumque ducimus, labore pariatur quae fugit?Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde est, soluta accusamus iste, vitae earum expedita quaerat modi suscipit at veritatis magnam esse ex quibusdam laboriosam quisquam, officia quis illum? Quae fugit expedita voluptatibus numquam magni, quibusdam nobis asperiores provident laborum velit!
-                </p>
-                <img src="assets/imagenes/testimonio.png" alt="TestimonioCris" data-aos="zoom-in">
-            </section>
+            <div class="col-12 col-lg-12">
+                <div class="card mb-3">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="assets/imagenes/testimonio.png" class="img-fluid rounded-start" alt="...">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Testimonio</h5>
+                          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus assumenda impedit enim, ea sapiente vitae corrupti debitis perferendis. Pariatur cupiditate aut provident consectetur explicabo quo unde suscipit saepe iste inventore. a little bit longer.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+            </div>
         </div>
 
         <!-- comienzo del footer -->
-        <footer class="fin">
-            <div>
-                <img src="assets/imagenes/logo.png" alt="logo" class="logo">
+        <footer class="row">
+            <div class="col-4 col-lg-4">
+                <img src="assets/imagenes/logo.png" alt="logo" class="logo" style="padding-left: 10px;">
             </div>
-            <div> 
-                <h2>Redes sociales</h2> 
-                <p> 
-                    <img src="assets/imagenes/iconoinsta.png" alt="iconoinsta">
-                    <a href="https://instagram.com/warstattos?igshid=YmMyMTA2M2Y=" target="_blank">War'sTatto</a>
-                </p>
-                <p> 
-                    <img src="assets/imagenes/iconoinsta.png" alt="iconoinsta">
-                    <a href="https://instagram.com/warsbarbers?igshid=YmMyMTA2M2Y=" target="_blank">War'sBarber</a>
-                </p>
-                <p>
-                    <img src="assets/imagenes/iconoface.png" alt="iconoface">
-                    <a href="https://www.facebook.com/people/WarsBarber-Tatto/100083250565104/" target="_blank"> War'sBarber-Tatto</a>
-                </p>  
+            <div class="col-4 col-lg-4"> 
+                <div style="text-align: center;">RRSS</div>
+                <div class="footer"> 
+                    <p> 
+                        <a href="https://instagram.com/warstattos?igshid=YmMyMTA2M2Y=" target="_blank">
+                            <img src="assets/imagenes/i.png" alt="iconoinsta">
+                        </a>
+                    </p>
+                    <p> 
+                        <a href="https://instagram.com/warsbarbers?igshid=YmMyMTA2M2Y=" target="_blank">
+                            <img src="assets/imagenes/i.png" alt="iconoinsta">
+                        </a>
+                    </p>
+                    <p>
+                        <a href="https://www.facebook.com/people/WarsBarber-Tatto/100083250565104/" target="_blank">
+                            <img src="assets/imagenes/f.png" alt="iconoface">
+                        </a>
+                    </p>
+                </div>  
             </div>
-            <div>
-                <h2>Contacto</h2>
-                <p>
-                    <img src="assets/imagenes/iconowha.png" alt="iconowha"> 
-                    <a href="https://wa.me/+18542191566" target="_blank">+1 (854) 219-1566 </a>
-                </p>
-                <p>
-                    <img src="assets/imagenes/iconomail.png" alt="iconomail">
-                    pachecoedgar186@gmail.com
+            <div class="col-4 col-lg-4">
+                <div style="text-align:center;">Contacto</div>
+                <p class="footer"> 
+                    <a href="https://wa.me/+18542191566" target="_blank">
+                        <img src="assets/imagenes/w.png" alt="iconowha">
+                    </a>
                 </p>
             </div>    
         </footer>
