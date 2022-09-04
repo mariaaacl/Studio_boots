@@ -166,7 +166,7 @@ h1 {
 .contenedorFormInf {
     box-shadow: 0 0 20px 0 rgba(255, 255, 255, .3);
     display: grid;
-    margin: 30px;
+    margin-bottom: 30px;
 }
 
 .contenedorFormInf > *{
